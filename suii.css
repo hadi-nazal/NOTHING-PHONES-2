@@ -1,0 +1,214 @@
+.luttappi{
+    background-color:black;
+    border:none;
+    color:white;
+    padding:500px 30 px;
+    border: radius 10px;;
+}
+.luttappi button :hover {
+    opacity:0.9;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+   nav {
+      background-color: #222; /* dark background */
+      padding: 10px 20px;
+    }
+
+    /* Remove default list styles */
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex; /* Flexbox for horizontal layout */
+      gap: 20px; /* space between items */
+    }
+
+    /* Navbar links */
+    nav ul li a {
+      color: #f2f2f2; /* light text */
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    /* Hover effect */
+    nav ul li a:hover {
+      color: #ff9800; /* highlight color */
+    }
+     .avatar {
+      width: 100px;   /* set width */
+      height: 100px;  /* set height */
+      border-radius: 50%; /* makes it a circle */
+      object-fit: cover; /* ensures the image fills without distortion */
+      border: 3px solid #333; /* optional border */
+    }
+     .username {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }
+     body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+
+    .alert {
+      padding: 15px 20px;
+      margin: 15px 0;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .alert i {
+      margin-right: 12px;
+      font-size: 20px;
+    }
+
+    /* Success */
+    .success {
+      background: #e6f7e900;
+      border-left: 6px solid #2ecc71;
+      color: #2e7d32;
+    }
+
+    /* Warning */
+    .warning {
+      background: #fff9e600;
+      border-left: 6px solid #f1c40f;
+      color: #b88700;
+    }
+
+    /* Error */
+    .error {
+      background: #fdecea00;
+      border-left: 6px solid #e74c3c;
+      color: #c0392b;
+    }
+      .gallery {
+      display: flex;
+      justify-content: space-between; /* Equal spacing */
+      gap: 20px; /* Space between images */
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 300px; /* Keep images same size */
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      object-fit: cover;
+    }
+    .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+    .product {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin: 10px;
+      border-radius: 8px;
+      display: inline-block;
+      width: 200px;
+      text-align: center;
+    }
+    button {
+      background: #28a745;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #218838;
+    }
+    #cart {
+      margin-top: 30px;
+      padding: 20px;
+      border: 2px solid #000;
+      border-radius: 8px;
+      background: #f8f8f8;
+    }
+    #paymentPage {
+      display: none;
+      margin-top: 30px;
+      padding: 20px;
+      border: 2px solid #000;
+      border-radius: 8px;
+      background: #e0f7fa;
+    }
+    input {
+      width: 90%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
